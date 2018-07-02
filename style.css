@@ -1,8 +1,8 @@
-body{
-  font-family: sans-serif   /*font style of body*/
+body {
+  font-family: 'Lato', sans-serif;   /*font style of body*/
 }
 
-li{
+li {
   display: inline;    /*to make options in navigation bar inline*/
   padding-right: 20px;    /*space between options in navigation bar*/
   text-align: right;    /*options in navigation bar aligned to the right side*/
@@ -23,27 +23,26 @@ ul{
   text-align: right;   /*navigation bar options brought to the right side*/
 }
 
-h1{
-  color: gray;
-  font-size: 40px;          /*title properties*/
-  font-family: Georgia;
-  font-style: italic;
+header {
+  position: sticky;
+  top: 0px;
+  background-color: #00ace4;    /*navigation bar colour*/
+}
+
+header h1 {
+  float: left;
 }
 
 form{
   text-align: right;    /*search box aligned to right*/
 }
 
-nav{
-  background-color: #00ace4;    /*navigation bar colour*/
-}
 
 .hero_image{
   background-image: url("class2.jpg");
   height: 75%;
   width: 100%;          /*hero image properties and position*/
   top: -20px;
-  position: relative;
 }
 
 .hero_content p{
@@ -72,7 +71,7 @@ footer{
   margin-left: 200px;
 }
 
-aside{
+aside {
   margin-left: 800px;   /*contact information alignment*/
 }
 
@@ -91,9 +90,9 @@ aside{
   text-decoration: none;
 }
 
-.icons{                   /*icons alignment*/
+.icons {                   /*icons alignment*/
   margin-top: -10px;
-  margin-left: 490px;
+  margin-left: 435px;
 }
 
 .fa:hover {
