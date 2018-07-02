@@ -1,0 +1,148 @@
+body{
+  font-family: sans-serif   /*font style of body*/
+}
+
+li{
+  display: inline;    /*to make options in navigation bar inline*/
+  padding-right: 20px;    /*space between options in navigation bar*/
+  text-align: right;    /*options in navigation bar aligned to the right side*/
+}
+
+ul a{
+  text-decoration: none;    /*navigation bar options properties*/
+  color: white;
+  
+}
+
+ul a:hover{
+  text-decoration: underline;   /*hovering effect in navigation bar*/
+  color: red;
+}
+
+ul{
+  text-align: right;       /*navigation bar options brought to the right side*/
+}
+
+h1{                         /*title properties*/
+  color: gray;
+  font-size: 40px;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+form{
+  text-align: right;      /*search box aligned to right*/
+}
+
+nav{
+  background-color: #00ace4;      /*navigation bar colour*/
+}
+
+img{
+  height: 40%;
+  width: 60%;                 /*founders image properties*/
+  top: -20px;
+  position: relative;
+  margin-left: 250px;
+}
+
+h2{
+  text-align: center;         /*Our Founders text properties*/
+  color: white;
+}
+
+.pic1 img{
+  width: 400px;               /*Chris Christopher image alignment*/
+  height: 300px;
+  margin-left: 25px;
+}
+
+.pic2 img{
+  width: 400px;               /*Helena Chris image alignment*/
+  height: 300px;
+  margin-left: 30px;
+}
+
+.pic1 h3{
+  margin-left: 130px;          /*Chris Christopher text alignment and colour*/
+  color: white;
+}
+
+.pic2 h3{
+  margin-left: 170px;          /*Helena Chris text alignment and colour*/
+  color: white;
+}
+
+.founders{
+  background: gray;         /*Our Founders section background colour*/
+}
+
+.activities h1{               /*Various Clubs text properties*/
+  color: black;
+  text-align: center;
+}
+
+.photo img{
+  margin-left: 10px;          /*Various Clubs images alignment*/
+  width: 275px;
+  height: 200px;
+}
+
+.photo h3{
+  margin-left: 70px;          /*Club names text alignment*/
+  margin-top: -20px;
+}
+
+footer{
+  color: blue;
+  background-color: burlywood;    /*footer properties*/
+  height: 200px;
+}
+
+.address{
+  float: left;                /*address class alignment*/
+  margin-left: 200px;
+}
+
+aside{
+  margin-left: 800px;         /*contact information alignment*/
+}
+
+.follow h1{
+  color: black;
+  text-align: center;         /*about us text alignment and properties*/
+  font-style: normal;
+  font-size: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;               /*icon symbols properties*/
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.icons{
+  margin-top: -10px;           /*icons alignment*/
+  margin-left: 490px;
+}
+
+.fa:hover {
+  opacity: 0.7;                /*hovering effect on icons*/
+}
+
+.fa-facebook {
+  background: #3B5998;        /*facebook icon properties*/
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;        /*twitter icon properties*/
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;        /*linkedin icon properties*/
+  color: white;
+}
