@@ -1,82 +1,87 @@
 <!doctype html>
 <html>
-  <head>    <!--header section-->
-    <title>Chris High School</title>    <!--name of the website -->
+  <!--header section-->
+  <head> 
+    <!--name of the webpage -->   
+    <title>chris high school</title>    
     <meta charset!="utf-8"/>
-    <style>
-      body{background: #eee;}   /* background color of website */
-    </style>
     <!-- Resets browser's default values -->
-    <link rel="stylesheet" href="reset.css"/>   
-    <!--stylesheet-->
-    <link rel="stylesheet" href="text.css"/>    
-    <link rel="stylesheet" href="960_12_col.css"/>  <!--960 grid-->
+    <link rel="stylesheet" href="css/reset.css"/>   
+    <!--provides text formatting properties-->
+    <link rel="stylesheet" href="css/text.css"/>
+    <!--does 960 grid on the browser page-->    
+    <link rel="stylesheet" href="css/960_12_col.css"/>  
+    <!--allows the usage of social fonts-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--allows the usage of google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"/>   <!--stylesheet-->
+    <!--helps the styling of website-->
+    <link rel="stylesheet" href="css/style.css"/>   
   </head>
+  <!--body of the web-->
   <body>
     <header class="clearfix">
-      <h1>Chris High School</h1>    <!--title of website-->
-      <!--search box-->
-      <!-- <form action="" method="get">   
-        <label for="search">Search: </label>
-        <input id="search" name="search"/>
-        <input type="submit" value="Go"/>
-      </form> -->
-      <nav>                           <!--navigation tab-->
+      <!--puts the school logo-->
+      <img src="img/logo.jpg" alt="school logo"/>
+      <!--title of webpage-->
+      <h1>chris high school</h1>
+      <!--navigation tab-->    
+      <nav>                           
         <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ACADEMICS</a></li>
-          <li><a href="#">STUDENTS</a></li>
-          <li><a href="#">FACULTY</a></li>
-          <li><a href="Assignment_12.html">ABOUT US</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">academics</a></li>
+          <li><a href="#">students</a></li>
+          <li><a href="#">faculty</a></li>
+          <li><a href="aboutus.html">about us</a></li>
         </ul>
       </nav>
     </header>
     <!--hero image-->
-    <div class="hero_image">    
-      <div class="hero_content">    <!--text on hero image-->
-        <p><strong>"There is no substitute for hardwork"</strong></p>
+    <div class="hero_image"> 
+      <!--text on hero image--> 
+      <div class="hero_content">    
+        <p><strong>"there is no substitute for hardwork"</strong></p>
+      </div>  
+    </div>
+    <!--grid dividing the following content into 3 columns-->
+    <div class="firstgrid container_12">    
+      <h2>know us!</h2>
+      <!--grid 1-->
+      <div class="pic1 grid_4 alpha">   
+        <img src="img/whoweare.jpg" alt="school photo"/>
+        <h3>who we are</h3>
+        <p>chris high school was established in 1927 and was one of the first public schools in the county. we are one of few high schools in orange county that has a separate campus for our freshmen students.our student body is approximately 6% asian, 18% black, 16% hispanic, and 60% white. approximately 37% of the students qualify for free or reduced lunch. the faculty is comprised of 198 teachers as well as over 115 other support staff.</p>
+      </div>
+      <!--grid 2-->
+      <div class="pic2 grid_4">   
+        <img src="img/whatwedo.jpg" alt="classroom photo"/>
+        <h3>what we do</h3>
+        <p>it is our goal to do our best to prepare our students for their next steps and that includes supporting them as well as challenging them in order to build those necessary skills. life after high school is not without challenge and any time our students have the opportunity to build the skills they will need to persevere we want to be there to encourage their growth. seeing our students grow from year to year in their academic, career-related, and inter-personal skills is our main focus.</p>
+      </div>
+      <!--grid 3-->
+      <div class="pic3 grid_4 omega">   
+        <img src="img/howwedoit.jpg" alt="interaction photo"/>
+        <h3>how we do it</h3>
+        <p>chris high school has one of the excellent team of faculty who interact well with students and clear their doubts. also the students are allowed to involve in various activities like sports, debate, quizzes and so on which in turn enhances their mental and physical abilites of understanding and learning. the institution is always ready to help the students regardless of the concerned issues.</p>
       </div>
     </div>
-    <br><br><br>
-    <div class="container_12">    <!--grid dividing the following content into 3 columns-->
-      <div class="pic1 grid_4 alpha">   <!--grid 1-->
-        <img src="whoweare.jpg" alt="school photo"/>
-        <h3>Who we are</h3>
-        <p>Chris High School was established in 1927 and was one of the first public schools in the county. We are one of few high schools in Orange County that has a separate campus for our freshmen students.Our student body is approximately 6% Asian, 18% Black, 16% Hispanic, and 60% White. Approximately 37% of the students qualify for free or reduced lunch. The faculty is comprised of 198 teachers as well as over 115 other support staff.</p>
-      </div>
-      <div class="pic2 grid_4">   <!--grid 2-->
-        <img src="whatwedo.jpg" alt="classroom photo"/>
-        <h3>What we do</h3>
-        <p>It is our goal to do our best to prepare our students for their next steps and that includes supporting them as well as challenging them in order to build those necessary skills. Life after high school is not without challenge and any time our students have the opportunity to build the skills they will need to persevere we want to be there to encourage their growth. Seeing our students grow from year to year in their academic, career-related, and inter-personal skills is our main focus.</p>
-      </div>
-      <div class="pic3 grid_4 omega">   <!--grid 3-->
-        <img src="howwedoit.jpg" alt="interaction photo"/>
-        <h3>How we do it</h3>
-        <p>Chris High School has one of the excellent team of faculty who interact well with students and clear their doubts. Also the students are allowed to involve in various activities like sports, debate, quizzes and so on which in turn enhances their mental and physical abilites of understanding and learning. The institution is always ready to help the students regardless of the concerned issues.</p>
-      </div>
-    </div> 
-    <br>
-    <footer>    <!--footer section-->
-      <p class="address"><strong>   <!--Address on the left side-->
-        ADDRESS:<br>
-        139/28, Domlur Layout Opp. Embassy Golf Links Off,<br>
-        Intermediate Ring Rd,<br>
-        Bengaluru, Karnataka-560071</strong>
-      </p>
-      <aside>   <!--Contact Details on the right side-->
-        <p><strong>
-          CONTACT DETAILS:<br>
-          H Sharath Achar<br>
-          Mob: +91 9740102575, 7019307386<br>
-          email: sharathachar110@gmail.com</strong>
-        </p>
+    <!--footer section--> 
+    <footer> 
+      <!--Address on the left side-->   
+      <address><strong>   
+        <p>139/28, Domlur Layout Opp. Embassy Golf Links Off,</p>
+        <p>Intermediate Ring Rd,</p>
+        <p>Bengaluru, Karnataka-560071</p></strong>
+      </address>
+      <!--Contact Details on the right side-->
+      <aside>   
+        <strong>
+          <p>H Sharath Achar</p>
+          <p>Mob: +91 9740102575, 7019307386</p>
+          <p>email: sharathachar110@gmail.com</p>
+        </strong>
       </aside>
-      <div class="follow">
-        <h1>Follow us on</h1>
-      </div>
+      <!--puts social media icons at the bottom-->
       <div class="icons">      
         <a href="#" class="fa fa-facebook"></a>
         <a href="#" class="fa fa-twitter"></a>

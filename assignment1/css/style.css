@@ -1,0 +1,215 @@
+/*font style of body*/
+body {
+  font-family: 'Lato', sans-serif;   
+  background: #eee;
+}
+/*fixing the header and providing navigation bar colour*/
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #00ace4;
+  z-index: 999;    
+}
+/*school logo properties*/
+header img {
+  width: 85px;
+  height: 85px;
+  float: left;
+}
+/*school name properties*/
+header h1 {
+  font-size: 40px;
+  color: #3B5998;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-transform: capitalize;
+}
+/*naving bar properties*/
+header nav {
+  margin-top: 35px;
+}
+li {
+  /*to make options in navigation bar inline*/
+  display: inline;  
+  /*space between options in navigation bar*/  
+  padding-right: 20px;    
+  /*options in navigation bar aligned to the right side*/
+  text-align: right;
+  text-transform: capitalize;    
+}
+/*navigation bar options properties*/
+ul a {
+  text-decoration: none;    
+  color: white;
+}    
+/*hovering effect in navigation bar*/
+ul a:hover {
+  text-decoration: underline;   
+  color: red;
+}
+/*navigation bar options brought to the right side*/
+ul {
+  text-align: right;   
+}
+/*school name brought to the left*/
+header h1 {
+  float: left;
+}
+/*hero image properties*/
+.hero_image {
+  background-image: url("../img/classroom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  margin-top: -20px;
+}
+/*properties and positioning of text on hero image*/
+.hero_content strong {
+  color: brown;           
+  font-size: 40px;
+  text-transform: capitalize;
+  position: absolute;
+  top: 180px;
+  left: 150px;
+}
+/*grid heading properties of first page*/
+.firstgrid h2 {
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+  top: 40px;
+}
+/*size of images in grid*/
+img {               
+  width: 320px;
+  height: 200px;
+}
+/*grid properties of first page*/
+.firstgrid {
+  width: 100%;
+  text-transform: uppercase;
+}
+/*grid properties of first page*/
+.grid_4 {
+  padding:55px;
+  margin-right: 0; 
+}
+/*footer properties*/
+footer {
+  color: blue;
+  background-color: burlywood;    
+  height:150px;
+}
+/*address class alignment*/
+address {
+  float: left;            
+}
+/*contact details indented to right*/
+aside p {
+  text-align: right;
+}
+/*icon symbols properties*/
+.fa {
+  padding: 10px;
+  font-size: 10px;          
+  width: 10px;
+  height: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+/*icons alignment*/
+.icons {                   
+  margin-top: -10px;
+  margin-left: 590px;
+}
+/*hovering effect on icons*/
+.fa:hover {
+  opacity: 0.7;        
+}
+/*facebook icon properties*/
+.fa-facebook {
+  background: #3B5998;    
+  color: white;
+}
+/*twitter icon properties*/
+.fa-twitter {
+  background: #55ACEE;    
+  color: white;
+}
+/*linkedin icon properties*/
+.fa-linkedin {
+  background: #007bb5;    
+  color: white;
+}
+/*school image properties*/
+.school img {
+  height: 40%;
+  width: 60%;                 
+  top: -20px;
+  position: relative;
+  margin-left: 250px;
+}
+/*Our Founders text properties*/
+.founders h2 {
+  text-align: center;         
+  color: white;
+  text-transform: capitalize;
+}
+/*Chris Christopher image alignment*/
+.founders .pic1 img {
+  width: 400px;               
+  height: 300px;
+  margin-left: 25px;
+}
+/*Helena Chris image alignment*/
+.founders .pic2 img {
+  width: 400px;               
+  height: 300px;
+  margin-left: 30px;
+}
+/*Chris Christopher text alignment and colour*/
+.founders .pic1 h3 {
+  margin-left: 130px;          
+  color: white;
+  text-transform: capitalize;
+}
+/*Helena Chris text alignment and colour*/
+.founders .pic2 h3 {
+  margin-left: 170px;          
+  color: white;
+  text-transform: capitalize;
+}
+/*Our Founders section background colour*/
+.founders {
+  background: gray;        
+}
+/*Various Clubs text properties*/
+.activities h1 {               
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+/*Various Clubs images alignment*/
+.photo img {
+  margin-left: 10px;          
+  width: 275px;
+  height: 200px;
+  padding: 0px;
+}
+/*Club names text alignment*/
+.photo h3 {
+  margin-left: 70px;          
+  margin-top: -20px;
+  text-transform: capitalize;
+}
+/*padding effect in grid of second page*/
+.activities .grid_4 {
+  padding: 5px;
+}
+/*alignment of grid texts of second page*/
+.activities h3 {
+  margin-top: 0px;
+}

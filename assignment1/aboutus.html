@@ -1,108 +1,119 @@
 <!doctype html>
 <html>
-  <head>     <!--header section-->
-    <title>ABOUT US</title>
+  <!--header section-->
+  <head>  
+    <!--name of the webpage -->   
+    <title>about us</title>
     <meta charset!="utf-8"/>
-    <style>
-      body{background: #eee;}   /* background color of website */
-    </style>
-    <link rel="stylesheet" href="reset.css"/>   <!--stylesheet-->
-    <link rel="stylesheet" href="text.css"/>    <!--stylesheet-->
-    <link rel="stylesheet" href="960_12_col.css"/>  <!--960 grid-->
-    <link rel="stylesheet" href="style2.css"/>   <!--stylesheet-->
+    <!-- Resets browser's default values -->
+    <link rel="stylesheet" href="css/reset.css"/>
+    <!--provides text formatting properties-->
+    <link rel="stylesheet" href="css/text.css"/>
+    <!--does 960 grid on the browser page-->
+    <link rel="stylesheet" href="css/960_12_col.css"/>
+    <!--allows the usage of social fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--allows the usage of google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <!--helps the styling of website-->
+    <link rel="stylesheet" href="css/style.css"/>
   </head>
+  <!--body of the webpage-->
   <body>
-    <h1>Chris High School</h1>    <!--title of website-->
-    <form action="" method="get">   <!--search box-->
-      <label for="search">Search: </label>
-      <input id="search" name="search"/>
-      <input type="submit" value="Go"/>
-    </form>
-    <nav>                         <!--navigation tab-->
-      <ul>
-        <li><a href="Assignment_11.html">HOME</a></li>
-        <li><a href="#">ACADEMICS</a></li>
-        <li><a href="#">STUDENTS</a></li>
-        <li><a href="#">FACULTY</a></li>
-        <li><a href="#">ABOUT US</a></li>
-      </ul>
-    </nav>
-    <img src="whoweare2.jpg" alt="school photo"/>   <!--hero image-->
-    <p>                                             <!--text about college-->
-        Welcome to Chris High School!  We are excited that you have chosen CHS. CHS is accredited through the Western Association of Schools and Colleges (WASC) and has been recognized by U.S. News and World Report as one of the best high schools in the nation, having received a Silver Award in four of the last five years. We are looking forward to our WASC Mid-Cylcle Visit this school year to share our progreee towards our campus and student goals.  We look forward to sharing this over the next school year.<br>
-        Our faculty, staff, and administration are focused on providing a quality learning experience for all students through the various curricular and extracurricular opportunities available. Our focus as educators will continue to be on preparing students for college and careers by developing essential skills and behaviors in a safe, supportive environment. Our teachers provide relevant, engaging content while building strong relationships with all students and families. As a result of this commitment, our class of 2017 earned over $7 million in scholarships and grants. We plan on continuing this trend over the upcoming years!<br>
-        Our partnership with our families and community is an integral part of the success of CHS. We encourage you to to become involved, whether through our Parent-Teacher Student Association (PTSA), English Learner Advisory Committee (ELAC), School Site Council (SSC) or one of the many committees or support groups aimed at improving our campus. Your feedback and support are essential to our continued improvement. I am excited about the partnerships we will build this school year.
-    </p><br>
+    <header class="clearfix">
+      <!--puts the school logo-->
+      <img src="img/logo.jpg" alt="school logo"/>
+      <!--title of website-->
+      <h1>chris high school</h1>  
+      <!--navigation tab-->  
+      <nav>                         
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="#">academics</a></li>
+          <li><a href="#">students</a></li>
+          <li><a href="#">faculty</a></li>
+          <li><a href="#">about us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="school">
+      <!--hero image-->
+      <img src="img/whoweare.jpg" alt="school photo"/>   
+      <!--text about college-->
+      <p>                                             
+          Welcome to Chris High School!  We are excited that you have chosen CHS. CHS is accredited through the Western Association of Schools and Colleges (WASC) and has been recognized by U.S. News and World Report as one of the best high schools in the nation, having received a Silver Award in four of the last five years. We are looking forward to our WASC Mid-Cylcle Visit this school year to share our progreee towards our campus and student goals.  We look forward to sharing this over the next school year.<br>
+          Our faculty, staff, and administration are focused on providing a quality learning experience for all students through the various curricular and extracurricular opportunities available. Our focus as educators will continue to be on preparing students for college and careers by developing essential skills and behaviors in a safe, supportive environment. Our teachers provide relevant, engaging content while building strong relationships with all students and families. As a result of this commitment, our class of 2017 earned over $7 million in scholarships and grants. We plan on continuing this trend over the upcoming years!<br>
+          Our partnership with our families and community is an integral part of the success of CHS. We encourage you to to become involved, whether through our Parent-Teacher Student Association (PTSA), English Learner Advisory Committee (ELAC), School Site Council (SSC) or one of the many committees or support groups aimed at improving our campus. Your feedback and support are essential to our continued improvement. I am excited about the partnerships we will build this school year.
+      </p>
+    </div>
     <div class="founders">
-      <br>
-      <h2>OUR FOUNDERS</h2>   <!--heading-->  
-      <br>
-      <div class="container_12">    <!--grid dividing the following content into 2 columns-->
-        <div class="pic1 grid_6">   <!--grid 1-->
-          <img src="founder.jpg" alt="school photo"/>
-          <h3>Chris Christopher</h3>
+      <!--heading-->
+      <h2>our founders</h2> 
+      <!--grid dividing the following content into 2 columns-->    
+      <div class="container_12">    
+        <div class="pic1 grid_6">
+          <img src="img/founder.jpg" alt="founder"/>
+          <h3>chris christopher</h3>
         </div>
-        <div class="pic2 grid_6">   <!--grid 2-->
-          <img src="founderspouse.jpg" alt="classroom photo"/>
-          <h3>Helena Chris</h3>
+        <div class="pic2 grid_6">
+          <img src="img/founderspouse.jpg" alt="founder"/>
+          <h3>helena chris</h3>
         </div>
       </div> 
     </div>
-    <br>
     <div class="activities">
-      <h1>Various Clubs</h1>    <!--heading-->
-      <br>
-      <div class="container_12">     <!--grid dividing the following content into 6 columns-->
-        <div class="photo grid_4">   <!--grid 1-->
-          <img src="cricket.jpg" alt="cricket photo"/>
-          <h3>Cricket Club</h3>
+      <!--heading-->
+      <h1>various clubs</h1>  
+      <!--grid dividing the following content into 6 columns-->  
+      <div class="container_12">     
+        <div class="photo grid_4">
+          <img src="img/cricket.jpg" alt="cricket photo"/>
+          <h3>cricket club</h3>
         </div>   
-        <div class="photo grid_4">   <!--grid 2-->    
-          <img src="football.jpg" alt="football photo"/>
-          <h3>Football Club</h3>
+        <div class="photo grid_4">   
+          <img src="img/football.jpg" alt="football photo"/>
+          <h3>football club</h3>
         </div>  
-        <div class="photo grid_4">    <!--grid 3-->
-          <img src="swimming.jpg" alt="swimming photo"/>
-          <h3>Swimming Club</h3>
+        <div class="photo grid_4">
+          <img src="img/swimming.jpg" alt="swimming photo"/>
+          <h3>swimming club</h3>
         </div>
-        <div class="photo grid_4">    <!--grid 4-->
-          <img src="singing.jpg" alt="singing photo"/>
-          <h3>Singing Club</h3>
+        <div class="photo grid_4">
+          <img src="img/singing.jpg" alt="singing photo"/>
+          <h3>singing club</h3>
         </div> 
-        <div class="photo grid_4">    <!--grid 5-->
-          <img src="dance.jpg" alt="dancing photo"/>
-          <h3>Dance Club</h3>
+        <div class="photo grid_4">
+          <img src="img/dance.jpg" alt="dancing photo"/>
+          <h3>dance club</h3>
         </div> 
-        <div class="photo grid_4">    <!--grid 6-->
-          <img src="art.jpg" alt="artclub photo"/>
-          <h3>Art Club</h3>
+        <div class="photo grid_4">
+          <img src="img/art.jpg" alt="artclub photo"/>
+          <h3>art club</h3>
         </div> 
       </div>
     </div>
-    <footer>      <!--footer section-->
-        <p class="address"><strong>   <!--Address on the left side-->
-          ADDRESS:<br>
-          139/28, Domlur Layout Opp. Embassy Golf Links Off,<br>
-          Intermediate Ring Rd,<br>
-          Bengaluru, Karnataka-560071</strong>
-        </p>
-        <aside>     <!--Contact Details on the right side-->
-          <p><strong>
-            CONTACT DETAILS:<br>
-            H Sharath Achar<br>
-            Mob: +91 9740102575, 7019307386<br>
-            email: sharathachar110@gmail.com</strong>
-          </p>
-        </aside>
-        <div class="follow">
-          <h1>Follow us on</h1>
-        </div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <div class="icons">      
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-linkedin"></a>  
-        </div>
-      </footer> 
+    <!--footer section-->
+    <footer>   
+      <!--Address on the left side--> 
+      <address><strong>   
+        <p>139/28, Domlur Layout Opp. Embassy Golf Links Off,</p>
+        <p>Intermediate Ring Rd,</p>
+        <p>Bengaluru, Karnataka-560071</p></strong>
+      </address>
+      <!--Contact Details on the right side-->
+      <aside>   
+        <strong>
+          <p>H Sharath Achar</p>
+          <p>Mob: +91 9740102575, 7019307386</p>
+          <p>email: sharathachar110@gmail.com</p>
+        </strong>
+      </aside>
+      <!--puts social media icons at the bottom-->
+      <div class="icons">      
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>  
+      </div>
+    </footer> 
   </body>
 </html>
